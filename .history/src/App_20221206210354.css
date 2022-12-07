@@ -1,0 +1,24 @@
+* {
+  
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.loseOrWin {
+  font-size: 2rem;
+  text-align: center;
+}

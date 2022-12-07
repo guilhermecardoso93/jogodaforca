@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  passing: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 1rem;
+}
+
+.container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.loseOrWin {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.HangmanWordContainer {
+  display: flex;
+  gap: 0.25em;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.HangmanWordContainer > span {
+  border-bottom: 1rem solid black;
+  border-radius: 10px;
+}
+
+.HangmanWordContainer .invisibleLetter {
+  visibility: hidden;
+}
